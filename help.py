@@ -25,8 +25,8 @@ Valid values for labeling_algorithm are:
 	letter of the label that it will be
 	annotated with.
     
-"re-search": Search for the label inside
-    the DLS Dataset record's name. It is 
-    not case sensitive.
+"re_search": Search for the label inside
+    the DLS Dataset record's name. This method
+    is not case sensitive
 '''
 )
