@@ -18,3 +18,6 @@
 		Dataset record's name must match the first
 		letter of the label that it will be
 		annotated with.
+	<b>"re-search"</b>: Search for the label inside
+		the DLS Dataset record's name. This method
+		is not case sensitive
