@@ -21,4 +21,4 @@
 	\
 	<b>"re_search"</b>: Search for the label inside
 		the DLS Dataset record's name. This method
-		is not case sensitive
+		is not case sensitive.
