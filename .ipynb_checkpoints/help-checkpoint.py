@@ -24,9 +24,5 @@ Valid values for labeling_algorithm are:
 	Dataset record's name must match the first
 	letter of the label that it will be
 	annotated with.
-    
-"re-search": Search for the label inside
-    the DLS Dataset record's name. It is 
-    not case sensitive.
 '''
 )

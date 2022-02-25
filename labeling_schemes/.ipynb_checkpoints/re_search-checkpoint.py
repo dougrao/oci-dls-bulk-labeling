@@ -1,16 +1,17 @@
 import datetime
 import sys
+import re
 sys.path.append("..")
 from config import *
 import dls_create_annotation
 
-def letter_to_label(letter):
+def re_search(word):
     for l in labels:
-        if letter == l[0] or letter.lower() == l[0]:
+        if re.search(l, word.lower()):
             return l 
 
 def main(name, record_id):
-    label = letter_to_label(letter=name[0])
+    label = re_search(word=name)
     if label:
         dls_create_annotation.main(label=label, record_id=record_id)
     else:
